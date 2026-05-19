@@ -1,5 +1,5 @@
 import analisis
-import estadisitcas
+import estadisticas
 import utilidades
 import validaciones
 
