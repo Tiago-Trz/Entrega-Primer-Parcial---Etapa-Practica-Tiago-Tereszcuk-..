@@ -40,7 +40,7 @@ def ingresar_contrasenia():
     return contrasenia
 
 def validar_seguridad(contrasenia: str):
-    return "Fuerte" # Temporal para probar que el menú siga
+    return 
 
 def tiene_numero(cadena: str):
     """
