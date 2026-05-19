@@ -19,11 +19,11 @@ def mostrar_menu():
     print("9. Salir")
 
 def main():
-    # Inicializamos la variable fuera del bucle
+    # inicio la variable fuera del bucle
     contrasenia = ""
     opcion = ""
 
-    # El bucle while mantiene el programa corriendo hasta que el usuario elija "9"
+    # con este bucle while hago continuar el programa hasta la opcion 9
     while opcion != "9":
         mostrar_menu()
         opcion = input("Ingresa una opción (1-9): ")
@@ -35,7 +35,6 @@ def main():
             if contrasenia == "":
                 print("ERROR: Primero ingresa tu contraseña (opción 1).")
             else:
-                #verifico que el usuario ya haya ingresado su contraseña antes de validar
                 nivel = validaciones.validar_seguridad(contrasenia)
                 print(f"El nivel de seguridad de la contraseña es: {nivel}")
         
