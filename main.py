@@ -23,7 +23,7 @@ def main():
     opcion = input("Ingresa una opcion (1-9): ")
 
     if opcion == "1":
-        print("Llamando a ingresar contraseña...")
+        contrasenia = validaciones.ingresar_contrasenia()
     elif opcion == "2":
         #verifico que el usuario ya haya ingresado su contraseña antes de validar
         if contrasenia == "":
