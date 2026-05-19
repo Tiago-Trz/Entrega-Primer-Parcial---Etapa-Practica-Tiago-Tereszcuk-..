@@ -25,13 +25,13 @@ def generar_reporte(contrasenia: str):
             consecutivos = consecutivos + 1
 
     # 3. calcula los porcentajes
-    porc_letras = (letras * 100) / longitud
-    porc_numeros = (numeros * 100) / longitud
-    porc_simbolos = (simbolos * 100) / longitud
+    porcentaje_letras = (letras * 100) / longitud
+    porcentaje_numeros = (numeros * 100) / longitud
+    porcentaje_simbolos = (simbolos * 100) / longitud
 
     print("\n--- Reporte Estadístico ---")
     print(f"Longitud total: {longitud} caracteres")
-    print(f"Porcentaje de letras: {porc_letras}%")
-    print(f"Porcentaje de números: {porc_numeros}%")
-    print(f"Porcentaje de símbolos: {porc_simbolos}%")
+    print(f"Porcentaje de letras: {porcentaje_letras}%")
+    print(f"Porcentaje de números: {porcentaje_numeros}%")
+    print(f"Porcentaje de símbolos: {porcentaje_simbolos}%")
     print(f"Caracteres repetidos consecutivos: {consecutivos}")
