@@ -58,7 +58,7 @@ def buscar_caracter(contrasenia: str):
     else:
         print(f"El carácter '{caracter_buscado}' no se encontró en la contraseña.")
 
-def verificar_palindromo(contrasenia: str) -> None:
+def verificar_palindromo(contrasenia: str):
     """
     verifica si la contraseña es un palíndromo comparándola con su versión invertida.
     """
